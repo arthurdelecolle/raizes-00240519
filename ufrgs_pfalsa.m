@@ -1,5 +1,6 @@
 function p=ufrgs_pfalsa(f,a,b,N,e1,e2,e3)
 
+
 for i=1:N
     
     p=(a*f(b)-b*f(a))/(f(b)-f(a));
