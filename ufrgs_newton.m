@@ -4,7 +4,7 @@ function xn1=ufrgs_newton(f,df,xn,N,e1,e2,e3)
 % xn1=ufrgs_newton(f,df,xn,N,e1,e2,e3)
 
 for i=1:N
-    xn1=xn-(f(xn)/df(xn));
+    xn1=(xn-(f(xn)/df(xn)));
     
      if abs(f(xn1))<=e1
         break
